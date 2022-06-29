@@ -1,0 +1,40 @@
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+#home h1 {
+    font-family: 'bold';  
+    text-align: center;
+    font-size: 400%;
+    color: rgb(64, 19, 169);
+}
+
+#home h2 {
+    font-family: 'bold';
+    text-align: center;
+    color: white;
+}
+
+.login-button {
+    display: flex;
+    margin: 30px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #a6a1ae;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.login-button img {
+    width: 24px;
+    margin-right: 20px;
+}
+
+.login-button span {
+    font-family: 'bold';
+    font-size: 120%;
+}
